@@ -1,0 +1,107 @@
+body {
+  background-image: linear-gradient(to bottom right, rgb(189, 168, 240), rgb(253, 253, 253));
+}
+.firstjumbo {
+  padding-top: 9px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  }
+
+
+.top-cont {
+ position: absolute;
+ background-color: white;
+ opacity: 0.7;
+ text-transform: uppercase;
+  }
+
+.navcont {
+  padding: 0px;
+}
+
+
+.titletext {
+  font-weight: bold;
+}
+
+.slidetitle {
+  z-index: -1;
+}
+
+.slide-text {
+text-shadow: 2px 2px 1px black;
+color: white;
+font-weight: bold;
+}
+
+.calltoaction {
+  padding: 3px;
+}
+
+
+
+.picwhychooseus {
+  height: 355px;
+  width: 355px;
+  position: absolute;
+  z-index: -1;
+  }
+
+.mywhychooseus {
+  opacity: 0.5;
+  position: relative;
+  transform: 1s ease-in-out 3s;
+}
+
+.col4:hover .mywhychooseus {
+  transform: translateY(100%)
+}
+
+.testimonials {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.ourservicescont {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  
+}
+
+.box1 {
+  width: 350px;
+  height: 350px;
+  background-color: blue;
+  animation-name: colored;
+  position: relative;
+  overflow: hidden;
+}
+
+.box2 {
+  width: 350px;
+  height: 80px;
+  background-color: rgb(220, 53, 69);
+  position: relative;
+  top: 270px;
+  transition-duration: 500ms;
+  opacity: 0.85;
+  }
+
+.box1:hover .box2 {
+  top: 0px;
+  height: 350px;
+}
+
+.iconhand {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+}
+
+.whychooseussvg {
+  padding-bottom: 10px;
+}
+
+.col-9 {
+  padding-top: 10px;
+}
