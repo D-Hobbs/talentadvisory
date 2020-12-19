@@ -22,7 +22,7 @@ body {
 
 .titletext {
   font-weight: bold;
-  font-size: clamp(10px, 5vw, 40px);
+  font-size: clamp(20px, 5vw, 40px);
 }
 
 .slidetitle {
@@ -67,6 +67,7 @@ font-weight: bold;
   margin-top: 70px;
   margin-bottom: 70px;
   margin-left: 100px;
+
   
 }
 
